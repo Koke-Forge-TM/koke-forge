@@ -2,7 +2,7 @@ import {FeatureObject} from '@/models/features'
 
 const FeatureSection: FeatureObject = {
     titleEs: "Descubre con nostros las ventajas de informatizar tu negocio",
-    titleEn: "Discover the advantages of computerizing your business with us",
+    titleEn: "Discover the advantages of computerizing your business",
     subtitleEs: "Somos un equipo con una amplia gama de posibilidades para que saques máximo provecho de una " +
         "solución de software",
     subtitleEn: "We are a team with a wide range of possibilities so that you can get the most out of a" +
