@@ -1,4 +1,4 @@
-import {Project, ProjectsObject} from "@/models/projects";
+import {Project, ProjectsObject} from "@/schemas/projects";
 
 export const projectSection: ProjectsObject = {
     titleEs: "No serás el primero en depositar tu confianza en nosostros",
@@ -41,9 +41,9 @@ export const projects: Project[] = [
             }
         ],
         img: {
-            src: "",
-            altEs: "",
-            altEn: "",
+            src: "/public/images/features-03-image-03.png",
+            altEs: "pinga 1",
+            altEn: "feature 1",
         },
     },
     {

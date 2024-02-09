@@ -1,5 +1,5 @@
 import VideoThumb from '@/public/images/hero-image-01.jpg'
-import ModalVideo from '.././components/modal-video'
+import ModalVideo from './modalVideo'
 import {staticText} from "@/data/staticText";
 
 export default function Hero() {
@@ -23,7 +23,7 @@ export default function Hero() {
         {/* Hero content */}
         <div className="relative pt-32 pb-10 md:pt-40 md:pb-16">
 
-          {/* Section header */}
+          {/* General header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h1 mb-4" data-aos="fade-up">{staticText.heroTitleEn}</h1>
             <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">{staticText.heroSubEn}</p>

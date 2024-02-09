@@ -1,4 +1,4 @@
-import PageIllustration from '@/components/waves'
+import PageIllustration from '@/components/ui/waves'
 
 export default function AuthLayout({
   children,

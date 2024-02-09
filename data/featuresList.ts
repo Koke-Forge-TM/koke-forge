@@ -1,6 +1,7 @@
-import {FeatureObject, Feature} from '@/models/features'
+import {Feature} from '@/schemas/features'
+import {Section} from '@/schemas/general'
 
-export const featureSection: FeatureObject = {
+export const featureSection: Section = {
     titleEs: "Descubre con nostros las ventajas de informatizar tu negocio",
     titleEn: "Discover the advantages of computerizing your business",
     subtitleEs: "Somos un equipo con una amplia gama de posibilidades para que saques máximo provecho de una " +

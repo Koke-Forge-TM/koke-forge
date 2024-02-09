@@ -5,8 +5,8 @@ import {useEffect} from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
-import Waves from '@/components/waves'
-import WavesFooter from '@/components/wavesFooter'
+import Waves from '@/components/ui/waves'
+import WavesFooter from '@/components/ui/wavesFooter'
 import Footer from '@/components/ui/footer'
 
 export default function DefaultLayout({children,}: { children: React.ReactNode }) {
