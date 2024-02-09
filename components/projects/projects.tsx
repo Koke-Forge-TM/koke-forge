@@ -1,5 +1,5 @@
 import {projects,projectSection} from "@/data/projects"
-import {getAllProjects} from "@/lib/requestProjects"
+// import {getAllProjects} from "@/lib/requestProjects"
 import type {Project} from "@/schemas/projects"
 
 import ProjectCard from "@/components/projects/card/ProjectCard";
