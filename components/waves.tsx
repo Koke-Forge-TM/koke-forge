@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function PageIllustration() {
+export default function Waves() {
   return (
     <div className="relative max-w-6xl mx-auto h-0 pointer-events-none" aria-hidden="true">
       <svg className="absolute top-0 right-0 transform translate-x-1/2 -mr-16" width="722" height="320" fill="none" xmlns="http://www.w3.org/2000/svg">
