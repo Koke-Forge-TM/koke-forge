@@ -1,20 +1,20 @@
 export const metadata = {
-  title: 'Home - KokeForge',
+  title: 'KoketForge - Portfolio',
   description: 'Page description',
 }
 
-import Hero from '@/components/hero'
-import Features from '@/components/features'
-import Newsletter from '@/components/newsletter'
-import Zigzag from '@/components/zigzag'
-import Testimonials from '@/components/testimonials'
+import Hero from '@/components/heroe/hero'
+import Features from '@/components/features/features'
+import Newsletter from '@/components/newslatter/newsletter'
+import Projects from '@/components/projects/projects'
+import Testimonials from '@/components/testimonials/testimonials'
 
 export default function Home() {
   return (
     <>
       <Hero />
       <Features />
-      <Zigzag />
+      <Projects />
       <Testimonials />
       <Newsletter />
     </>
