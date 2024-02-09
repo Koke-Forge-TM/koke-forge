@@ -1,12 +1,12 @@
 import {Project, ProjectsObject} from "@/models/projects";
 
 export const projectSection: ProjectsObject = {
-    titleEs: "Algunas de nuestras soluciones",
-    subtitleEs: "No serás el primero en depositar tu confianza en nosostros",
-    titleEn: "Some of our solutions",
-    subtitleEn: "You will not be the first one to place your trust in us",
-    tagEs: "alcanza tus metas",
-    tagEn: "reach your goals",
+    titleEs: "No serás el primero en depositar tu confianza en nosostros",
+    subtitleEs: "Algunas de nuestras soluciones",
+    titleEn: "You will not be the first one to place your trust in us",
+    subtitleEn: "Some of our solutions",
+    tagEs: "alcanza tus metas con KokeForge",
+    tagEn: "reach your goals with KokeForge",
 }
 
 export const projects: Project[] = [

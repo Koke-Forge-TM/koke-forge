@@ -1,4 +1,4 @@
-interface Feature {
+export interface Feature {
     iconClass: string,
     titleEs: string,
     subtitleEs: string,
@@ -11,5 +11,4 @@ export interface FeatureObject {
     subtitleEs: string,
     titleEn: string,
     subtitleEn: string,
-    features: Feature[],
 }
