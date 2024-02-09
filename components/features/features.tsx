@@ -22,7 +22,7 @@ export default function Features() {
                                     <FeaturesCard key={index} feature={feature}/>
                                 ))
                                 :
-                                <p>NO PROJECTS</p>
+                                <p>NO FT</p>
                         }
                     </div>
                 </div>

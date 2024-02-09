@@ -41,8 +41,8 @@ export const projects: Project[] = [
             }
         ],
         img: {
-            src: "/public/images/features-03-image-03.png",
-            altEs: "pinga 1",
+            src: "/images/shop.png",
+            altEs: "feature 1",
             altEn: "feature 1",
         },
     },
@@ -75,9 +75,9 @@ export const projects: Project[] = [
             }
         ],
         img: {
-            src: "",
-            altEs: "",
-            altEn: "",
+            src: "/images/bar.jpg",
+            altEs: "feature 2",
+            altEn: "feature 2",
         },
     },
     {
@@ -113,9 +113,9 @@ export const projects: Project[] = [
             }
         ],
         img: {
-            src: "",
-            altEs: "",
-            altEn: "",
+            src: "/images/contenedores.png",
+            altEs: "feature 3",
+            altEn: "feature 3",
         },
     },
 ]

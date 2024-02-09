@@ -18,8 +18,8 @@ export const features: Feature[] = [
             "producto de software, kokeForge tiene experiencia trabajando con clientes inexpertos en esta área" +
             "te ayudaremos a descubrir lo que necesitas.",
         subtitleEn: "It is not always easy to identify which areas of your business can benefit from a" +
-            "software product, kokeForge has experience working with clients inexperienced in this area" +
-            "We will help you discover what you need."
+            "software product, kokeForge has experience working with clients inexperienced in this area," +
+            " We will help you discover what you need."
     },
     {
         iconClass: "",
@@ -63,8 +63,8 @@ export const features: Feature[] = [
     },
     {
         iconClass: "",
-        titleEs: "Trabajamos con otros desarrolladores",
-        titleEn: "We work with other developers",
+        titleEs: "Trabajamos con desarrolladores",
+        titleEn: "Work with developers",
         subtitleEs: "Tenemos experiencia trabajando con otros equipos y/o empresas en la rama del desarrollo" +
             "de software creando desde plugins y funcionalidades hasta soluciones completas.",
         subtitleEn: "We have experience working with other teams and/or companies in the software development " +

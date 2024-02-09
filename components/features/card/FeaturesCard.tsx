@@ -19,7 +19,7 @@ export default function FeaturesCard(props: FeatureCardProps) {
                       strokeWidth="2"/>
             </svg>
             <h4 className="h4 mb-2">{feature.titleEn}</h4>
-            <p className="text-lg text-gray-400 text-center">{feature.subtitleEs}</p>
+            <p className="text-lg text-gray-400 text-center">{feature.subtitleEn}</p>
         </div>
     )
 }

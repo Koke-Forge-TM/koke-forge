@@ -3,6 +3,7 @@ import type {Project, ProjectFeature} from "@/schemas/projects"
 import type {Img} from "@/schemas/general"
 
 import Image from "next/image";
+import Link from "next/link";
 
 interface ProjectCardProps {
     "project": Project
@@ -29,10 +30,10 @@ export default function ProjectCard(props: ProjectCardProps) {
                     className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
                     data-aos="fade-right">
                     <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                        <div
+                        <Link href={project.blueTitle.url}
                             className="font-architects-daughter text-xl text-purple-600 mb-2">
                             {project.blueTitle.titleEn}
-                        </div>
+                        </Link>
                         <h3 className="h3 mb-3">{project.titleEn}</h3>
                         <p className="text-xl text-gray-400 mb-4">{project.subtitleEn}</p>
                         <ul className="text-lg text-gray-400 -mb-2">
