@@ -6,7 +6,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 interface ProjectCardProps {
-    "project": Project
+    "project": Project,
+    "index": number
 }
 
 
@@ -28,8 +29,8 @@ export default function ProjectCard(props: ProjectCardProps) {
 
                 <div
                     className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
-                    data-aos="fade-right">
-                    <div className="md:pr-4 lg:pr-12 xl:pr-16">
+                    data-aos={props.index % 2 == 0 ? "fade-right" : "fade-left"}>
+                    <div className={props.index % 2 == 0 ? "md:pr-4 lg:pr-12 xl:pr-16" : "md:pl-4 lg:pl-12 xl:pl-16"}>
                         <Link href={project.blueTitle.url}
                             className="font-architects-daughter text-xl text-purple-600 mb-2">
                             {project.blueTitle.titleEn}

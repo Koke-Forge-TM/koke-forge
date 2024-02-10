@@ -30,7 +30,7 @@ export default function Projects() {
                         {
                             projects && projects.length > 0 ?
                                 projects.map((project: Project, index: number) => (
-                                    <ProjectCard key={index} project={project}/>
+                                    <ProjectCard key={index} index={index} project={project}/>
                                 ))
                                 :
                                 <p>NO PROJECTS</p>

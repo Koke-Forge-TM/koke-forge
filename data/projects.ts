@@ -71,7 +71,7 @@ export const projects: Project[] = [
             },
             {
                 titleEs: "Todos sabrán lo que estas ofertando con solo un click",
-                titleEn: "Everyone will know what you are offering with just one click",
+                titleEn: "They will know what you are offering with just one click",
             }
         ],
         img: {
