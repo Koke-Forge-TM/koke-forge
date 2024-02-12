@@ -25,8 +25,15 @@ export default function ProjectCard(props: ProjectCardProps) {
                             <div
                                 className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1"
                                 data-aos="fade-up">
-                                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={img.src} width={540}
-                                       height={405} alt={img.altEn}/>
+                                <Image className="max-w-full mx-auto md:max-w-none h-auto"
+                                       style={{
+                                           width: 540,
+                                           height: 405
+                                       }}
+                                       src={img.src}
+                                       width={540}
+                                       height={405}
+                                       alt={img.altEn}/>
                             </div>
                             <div
                                 className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
@@ -42,7 +49,7 @@ export default function ProjectCard(props: ProjectCardProps) {
                                         {
                                             features && features.length > 0 ?
                                                 features.map((feature: ProjectFeature, index: number) => (
-                                                    <li className="flex items-center mb-2">
+                                                    <li key={index} className="flex items-center mb-2">
                                                         <ProjectFeat key={index} feature={feature}/>
                                                     </li>
                                                 ))
@@ -58,8 +65,15 @@ export default function ProjectCard(props: ProjectCardProps) {
                             <div
                                 className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl"
                                 data-aos="fade-up">
-                                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={img.src} width={540}
-                                       height={405} alt={img.altEn}/>
+                                <Image className="max-w-full mx-auto md:max-w-none h-auto"
+                                       style={{
+                                           width: 540,
+                                           height: 405
+                                       }}
+                                       src={img.src}
+                                       width={540}
+                                       height={405}
+                                       alt={img.altEn}/>
                             </div>
                             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
                                  data-aos="fade-left">
@@ -74,7 +88,7 @@ export default function ProjectCard(props: ProjectCardProps) {
                                         {
                                             features && features.length > 0 ?
                                                 features.map((feature: ProjectFeature, index: number) => (
-                                                    <li className="flex items-center mb-2">
+                                                    <li key={index} className="flex items-center mb-2">
                                                         <ProjectFeat key={index} feature={feature}/>
                                                     </li>
                                                 ))
@@ -86,8 +100,6 @@ export default function ProjectCard(props: ProjectCardProps) {
                             </div>
                         </>
                 }
-
-
             </div>
         </>
     )
